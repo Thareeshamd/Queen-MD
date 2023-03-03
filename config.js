@@ -32,7 +32,7 @@ global.packname = process.env.PACK_NAME === undefined ? 'Queen-MD' : process.env
 global.author = process.env.STICKER_AUTHOR_NAME === undefined ? '👿𝙲𝚞𝚝𝚝𝚊👿' : process.env.STICKER_AUTHOR_NAME
 global.pmblock = process.env.PM_BLOCK === undefined ? 'false' : process.env.PM_BLOCK
 global.chatbot_pm = process.env.PM_CHATBOT === undefined ? 'turn' : process.env.PM_CHATBOT
-global.chatbot_group = process.env.GROUP_CHATBOT === undefined ? 'false' : process.env.GROUP_CHATBOT
+global.chatbot_group = process.env.GROUP_CHATBOT === undefined ? 'turn' : process.env.GROUP_CHATBOT
 
 /////////////////////////////////////////////////////////////////||SESSION ID METHOD||///////////////////////////////////////////////////////////////////////
 global.sessionconvert = ['true']                           //This is session id method.....//Don't Change
